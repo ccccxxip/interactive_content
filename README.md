@@ -1,5 +1,28 @@
-# interactive_content
+# Веб-приложение на Laravel
 
-# for testing
-# changes in test1
-# changes in main
+Базовое веб-приложение на фреймворке Laravel с сохранением данных формы в JSON-файлы.
+
+## Запуск приложения
+
+```bash
+php artisan serve
+```
+
+Приложение доступно по адресу: `http://127.0.0.1:8000`
+
+## Роуты
+
+- `/` — главная страница
+- `/feedback` — форма отправки данных (GET / POST)
+- `/submissions` — таблица данных из JSON
+
+## Скриншоты интерфейса
+
+### Главная страница
+![Главная страница](screenshots/home.png)
+
+### Форма отправки данных
+![Форма отправки данных](screenshots/feedback.png)
+
+### Таблица данных
+![Таблица данных](screenshots/table.png)
